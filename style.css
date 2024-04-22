@@ -1,0 +1,207 @@
+body {
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: purple;
+    color: white;
+    font-size: 32px;
+    font-weight: 900;
+    padding: 0 8px;
+}
+.end {
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: lightgray;
+}
+
+.container {
+    display: flex;
+    flex: 1;
+}
+.links {
+    flex-shrink: 0;
+    background-color: royalblue;
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    box-sizing: border-box;
+    padding: 16px;
+}
+ul {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+li {
+    margin-bottom: 8px;
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+    padding: 32px;
+    position: relative;
+}
+.card {
+    width: 350px;
+    height: 300px;
+    border: 1px solid gray;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.text {
+    font-family:'Courier New', Courier, monospace;
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.card.blade > .text {
+    color: seagreen;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.card.blade {
+    border: 2px solid seagreen;
+    box-shadow: 0 0 16px seagreen;
+    background-color: seagreen;
+    position: relative;
+}
+
+.card.kafka > .text {
+    color: darkmagenta;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.card.kafka {
+    border: 2px solid darkmagenta;
+    box-shadow: 0 0 16px darkmagenta;
+    background-color: darkmagenta;
+    position: relative;
+}
+
+.card.alhaitham > .text {
+    color: green;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.card.alhaitham {
+    border: 2px solid green;
+    box-shadow: 0 0 16px green;
+    background-color: green;
+    position: relative;
+}
+
+.card.arlecchino > .text {
+    color: darkred;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.card.arlecchino {
+    border: 2px solid darkred;
+    box-shadow: 0 0 16px darkred;
+    background-color: darkred;
+    position: relative;
+}
+
+.card.aether > .text {
+    color: goldenrod;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.card.aether {
+    border: 2px solid goldenrod;
+    box-shadow: 0 0 16px goldenrod;
+    background-color: goldenrod;
+    position: relative;
+}
+
+.card.jingliu > .text {
+    color:turquoise;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.card.jingliu {
+    border: 2px solid turquoise;
+    box-shadow: 0 0 16px turquoise;
+    background-color: turquoise;
+    position: relative;
+}
+
+.card img {
+    width: 350px;
+    height: 300px;
+    border-radius: 8px;
+    object-fit: cover;
+    filter: blur(4px);
+}
+
+.card:hover {
+    img {
+        filter: none;
+        transition: all 1s ease;
+        transform: scale(120%)
+    }
+    .text {
+        opacity: 0;
+    }
+}

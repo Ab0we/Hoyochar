@@ -1,0 +1,4 @@
+[ZoneTransfer]
+ZoneId=3
+ReferrerUrl=https://cloudconvert.com/
+HostUrl=https://eu-central.storage.cloudconvert.com/tasks/c87843ef-a261-4e6e-961c-5da8791ca43f/kafka.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=cloudconvert-production%2F20240422%2Ffra%2Fs3%2Faws4_request&X-Amz-Date=20240422T091436Z&X-Amz-Expires=86400&X-Amz-Signature=5a52188fa5bc1499d6a7a41bcb970ffa22d572b4a924c54d0f9e25384edda245&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%3D%22kafka.jpg%22&response-content-type=image%2Fjpeg&x-id=GetObject
